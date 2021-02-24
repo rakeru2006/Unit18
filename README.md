@@ -1,3 +1,13 @@
+This is deploy in heroku 
+
+https://fierce-bayou-01282.herokuapp.com/
+
+The repository is 
+https://github.com/rakeru2006/Unit18
+
+![alt text](http://url/to/img.png)
+
+
 Unit 18 PWA Homework: Online/Offline Budget Trackers
 Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
 The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
