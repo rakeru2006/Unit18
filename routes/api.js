@@ -15,11 +15,13 @@ router.post('/api/transaction/bulk', ({ body }, res) => {
   Transaction.insertMany(body)
     .then(dbTransaction => {
       res.json(dbTransaction);
+      console.log(dbTransaction);
     })
     .catch(err => {
       res.status(404).json(err);
     });
 });
+
 
 router.get('/api/transaction', (req, res) => {
   Transaction.find({})
